@@ -1,12 +1,12 @@
 const aoi = require("aoi.js");
 const bot = new aoi.Bot({
-token:"ODU4MTI0Mzg5NTQ2OTgzNDY2.YNZknQ.06ztWHAkKFEDEug739PVSJKx4wA",
+token:"ODU4MTI0Mzg5NTQ2OTgzNDY2.YNZknQ.lJNbqf9sm8ziQwXzY_oQRicw3XQ",
 prefix: "."
 }); 
 bot.onMessage()
 bot.loadCommands(`./commands/`)
 //durum
-bot.status({text: "Music Bot by charoN",
+bot.status({text: "by charoN",
   type: "PLAYING",
   time: 12}); 
 bot.musicStartCommand({ 
